@@ -1,0 +1,84 @@
+body {
+    background-color: #d3691f;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px 0px black;
+    padding: 10px;
+    width: 80%;
+    padding-top: 20px;
+    max-width: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.quote {
+    font-family: "Philosopher", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.quote::before,
+.quote::after {
+    font-family: "Philosopher", sans-serif;
+    font-size: 30px;
+    font-weight: 1200;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.author {
+    color: rgb(37, 57, 156);
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+
+}
+
+.divo {
+    width: 100%;
+    margin-bottom: 25px
+}
+
+.sp {
+    right: 10%;
+}
+
+.buttons button {
+    margin-right: 5px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+
+}
+
+.copy {
+    background-color: red;
+}
+
+.new {
+    background-color: green;
+}
+
+.tweet {
+    background-color: rgb(46, 186, 241);
+}
